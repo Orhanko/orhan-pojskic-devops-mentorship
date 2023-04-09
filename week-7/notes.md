@@ -25,3 +25,6 @@
 12. Provjera da li je proces aktivan komandom `ps aux | grep node`
 13. Konfigurisanje porta kojeg pokrenuta instanca moze slusati (`8008`)
 14. Pokretanje aplikacije na browseru: `public-IP-adresa:8008`
+15. Unutar direktorija `etc/nginx/conf.d`, napravljen je custom config file za `nodejs-simple-app`, koji izgleda ovako: ![[Screenshot 2023-04-09 at 22.36.43.png]]
+16. Restart nginx servisa sa komandom `sudo service nginx restart` 
+Zahvaljujuci portu `8008` koji je dozvoljen unutar http protokola, aplikacija je uspjesno pokrenuta koristeći samo public IP adresu našeg servera. 
