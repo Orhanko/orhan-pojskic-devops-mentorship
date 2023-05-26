@@ -1,1 +1,0 @@
-# TASK-10: Serverless and Application Services
